@@ -1,0 +1,414 @@
+[
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#413880#TA#0#DA#61224#1S#8000096#1T#1516#LS#8098160#LT#2115#PU#80#RT#1#CA#DPF#ZE#1244#ZB#FLX 1244#PC#2#FR#8000096#FT#1516#TO#8098160#TT#2115#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-06T20:33:00+01:00",
+    "plannedWhen": "2024-12-06T20:01:00+01:00",
+    "delay": 1920,
+    "platform": "7",
+    "plannedPlatform": "7",
+    "prognosisType": "prognosed",
+    "direction": "Berlin Hbf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "flx-1244",
+      "fahrtNr": "1244",
+      "name": "FLX 1244",
+      "public": true,
+      "adminCode": "FLX10_",
+      "productName": "FLX",
+      "mode": "train",
+      "product": "regionalExp",
+      "operator": {
+        "type": "operator",
+        "id": "flixtrain",
+        "name": "FlixTrain"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "8098160",
+      "name": "Berlin Hbf",
+      "location": {
+        "type": "location",
+        "id": "8098160",
+        "latitude": 52.52585,
+        "longitude": 13.368892
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": true,
+        "tram": true,
+        "taxi": false
+      },
+      "station": {
+        "type": "station",
+        "id": "8011160",
+        "name": "Berlin Hbf",
+        "location": {
+          "type": "location",
+          "id": "8011160",
+          "latitude": 52.524924,
+          "longitude": 13.369629
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": true,
+          "tram": true,
+          "taxi": false
+        }
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 51.366152,
+      "longitude": 11.851441
+    }
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#305947#TA#0#DA#61224#1S#8000261#1T#1751#LS#8098160#LT#2152#PU#80#RT#1#CA#ICE#ZE#1000#ZB#ICE 1000#PC#0#FR#8000261#FT#1751#TO#8098160#TT#2152#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-06T20:42:00+01:00",
+    "plannedWhen": "2024-12-06T20:40:00+01:00",
+    "delay": 120,
+    "platform": "7",
+    "plannedPlatform": "7",
+    "prognosisType": "prognosed",
+    "direction": "Berlin Hbf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "ice-1000",
+      "fahrtNr": "1000",
+      "name": "ICE 1000",
+      "public": true,
+      "adminCode": "80____",
+      "productName": "ICE",
+      "mode": "train",
+      "product": "nationalExpress",
+      "operator": {
+        "type": "operator",
+        "id": "db-fernverkehr-ag",
+        "name": "DB Fernverkehr AG"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "8098160",
+      "name": "Berlin Hbf",
+      "location": {
+        "type": "location",
+        "id": "8098160",
+        "latitude": 52.52585,
+        "longitude": 13.368892
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": true,
+        "tram": true,
+        "taxi": false
+      },
+      "station": {
+        "type": "station",
+        "id": "8011160",
+        "name": "Berlin Hbf",
+        "location": {
+          "type": "location",
+          "id": "8011160",
+          "latitude": 52.524924,
+          "longitude": 13.369629
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": true,
+          "tram": true,
+          "taxi": false
+        }
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 51.177315,
+      "longitude": 11.49706
+    }
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#322913#TA#0#DA#61224#1S#8000261#1T#1709#LS#8098160#LT#2222#PU#80#RT#1#CA#ICE#ZE#702#ZB#ICE  702#PC#0#FR#8000261#FT#1709#TO#8098160#TT#2222#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-06T21:06:00+01:00",
+    "plannedWhen": "2024-12-06T21:06:00+01:00",
+    "delay": 0,
+    "platform": "8",
+    "plannedPlatform": "8",
+    "prognosisType": "prognosed",
+    "direction": "Berlin Hbf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "ice-702",
+      "fahrtNr": "702",
+      "name": "ICE 702",
+      "public": true,
+      "adminCode": "80____",
+      "productName": "ICE",
+      "mode": "train",
+      "product": "nationalExpress",
+      "operator": {
+        "type": "operator",
+        "id": "db-fernverkehr-ag",
+        "name": "DB Fernverkehr AG"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "8098160",
+      "name": "Berlin Hbf",
+      "location": {
+        "type": "location",
+        "id": "8098160",
+        "latitude": 52.52585,
+        "longitude": 13.368892
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": true,
+        "tram": true,
+        "taxi": false
+      },
+      "station": {
+        "type": "station",
+        "id": "8011160",
+        "name": "Berlin Hbf",
+        "location": {
+          "type": "location",
+          "id": "8011160",
+          "latitude": 52.524924,
+          "longitude": 13.369629
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": true,
+          "tram": true,
+          "taxi": false
+        }
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 50.959012,
+      "longitude": 11.009152
+    }
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#307589#TA#0#DA#61224#1S#8000261#1T#1852#LS#8098160#LT#2257#PU#80#RT#1#CA#ICE#ZE#1102#ZB#ICE 1102#PC#0#FR#8000261#FT#1852#TO#8098160#TT#2257#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-06T21:47:00+01:00",
+    "plannedWhen": "2024-12-06T21:47:00+01:00",
+    "delay": 0,
+    "platform": "7",
+    "plannedPlatform": "7",
+    "prognosisType": "prognosed",
+    "direction": "Berlin Hbf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "ice-1102",
+      "fahrtNr": "1102",
+      "name": "ICE 1102",
+      "public": true,
+      "adminCode": "80____",
+      "productName": "ICE",
+      "mode": "train",
+      "product": "nationalExpress",
+      "operator": {
+        "type": "operator",
+        "id": "db-fernverkehr-ag",
+        "name": "DB Fernverkehr AG"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "8098160",
+      "name": "Berlin Hbf",
+      "location": {
+        "type": "location",
+        "id": "8098160",
+        "latitude": 52.52585,
+        "longitude": 13.368892
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": true,
+        "tram": true,
+        "taxi": false
+      },
+      "station": {
+        "type": "station",
+        "id": "8011160",
+        "name": "Berlin Hbf",
+        "location": {
+          "type": "location",
+          "id": "8011160",
+          "latitude": 52.524924,
+          "longitude": 13.369629
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": true,
+          "tram": true,
+          "taxi": false
+        }
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 49.888918,
+      "longitude": 10.912824
+    }
+  }
+]
