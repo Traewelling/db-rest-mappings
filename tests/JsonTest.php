@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use DRM\Dto\Location;
+use DRM\Dto\FullStation;
 use DRM\Dto\Stop;
 use DRM\Dto\Trip;
 use DRM\Hydrator\DbRestHydrator;
@@ -10,9 +10,29 @@ use PHPUnit\Framework\TestCase;
 
 class JsonTest extends TestCase
 {
-    public function testJsonIdentical()
+    public static function jsonFiles()
     {
-        $json = file_get_contents(__DIR__ . '/_data/departures.json');
+        return [
+            ['departures.json'],
+            ['departures_2.json'],
+        ];
+    }
+
+    public static function stationsFiles()
+    {
+        return [
+            ['stations_ril.json'],
+            ['stations_ibnr.json']
+        ];
+    }
+
+    /**
+     * // test with departures.json and departures_2.json
+     * @dataProvider jsonFiles
+     */
+    public function testJsonIdentical($file)
+    {
+        $json = file_get_contents(__DIR__ . '/_data/'. $file);
         $data = json_decode($json, true);
         $this->assertIsArray($data);
 
@@ -53,13 +73,17 @@ class JsonTest extends TestCase
         $this->assertJsonStringEqualsJsonString($json, $stations);
     }
 
-    public function testJsonStationRilIdentical()
+
+    /**
+     * @dataProvider stationsFiles
+     */
+    public function testJsonStationsIdentical($file)
     {
-        $json = file_get_contents(__DIR__ . '/_data/station_ril.json');
+        $json = file_get_contents(__DIR__ . '/_data/stations_ril.json');
         $data = json_decode($json, true);
         $this->assertIsArray($data);
 
-        $station = (new DbRestHydrator())->hydrate($data, Stop::class);
+        $station = (new DbRestHydrator())->hydrate($data, FullStation::class);
         $station = json_encode($station, JSON_PRETTY_PRINT);
         $this->assertJsonStringEqualsJsonString($json, $station);
     }

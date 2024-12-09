@@ -1,0 +1,463 @@
+[
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#370210#TA#0#DA#91224#1S#8070814#1T#2238#LS#8010076#LT#2333#PU#80#RT#1#CA#Bsv#ZE#S9#ZB#Bus   S9#PC#3#FR#8070814#FT#2238#TO#8010076#TT#2333#",
+    "stop": {
+      "type": "stop",
+      "id": "8070814",
+      "name": "Halle(Saale)Hbf Busbahnhof Bussteig 9",
+      "location": {
+        "type": "location",
+        "id": "8070814",
+        "latitude": 51.476764,
+        "longitude": 11.985668
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      },
+      "station": {
+        "type": "station",
+        "id": "8010159",
+        "name": "Halle(Saale)Hbf",
+        "location": {
+          "type": "location",
+          "id": "8010159",
+          "latitude": 51.477079,
+          "longitude": 11.98699
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": true,
+          "taxi": true
+        }
+      }
+    },
+    "when": "2024-12-09T22:38:00+01:00",
+    "plannedWhen": "2024-12-09T22:38:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": "Delitzsch unt Bf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "3-sd-s9",
+      "fahrtNr": "37929",
+      "name": "Bus S9",
+      "public": true,
+      "adminCode": "SD____",
+      "productName": "Bus",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag-sudost",
+        "name": "DB Regio AG Südost"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "station",
+      "id": "8010076",
+      "name": "Delitzsch unt Bf",
+      "location": {
+        "type": "location",
+        "id": "8010076",
+        "latitude": 51.524497,
+        "longitude": 12.345713
+      },
+      "products": {
+        "nationalExpress": false,
+        "national": false,
+        "regionalExp": false,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": false,
+        "taxi": true
+      }
+    }
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#371300#TA#8#DA#91224#1S#8070814#1T#2238#LS#8012619#LT#2255#PU#80#RT#1#CA#Bsv#ZE#S9#ZB#Bus   S9#PC#3#FR#8070814#FT#2238#TO#8012619#TT#2255#",
+    "stop": {
+      "type": "stop",
+      "id": "8070814",
+      "name": "Halle(Saale)Hbf Busbahnhof Bussteig 9",
+      "location": {
+        "type": "location",
+        "id": "8070814",
+        "latitude": 51.476764,
+        "longitude": 11.985668
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      },
+      "station": {
+        "type": "station",
+        "id": "8010159",
+        "name": "Halle(Saale)Hbf",
+        "location": {
+          "type": "location",
+          "id": "8010159",
+          "latitude": 51.477079,
+          "longitude": 11.98699
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": false,
+          "tram": true,
+          "taxi": true
+        }
+      }
+    },
+    "when": "2024-12-09T22:38:00+01:00",
+    "plannedWhen": "2024-12-09T22:38:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": "Peißen",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "3-sd-s9",
+      "fahrtNr": "47929",
+      "name": "Bus S9",
+      "public": true,
+      "adminCode": "SD____",
+      "productName": "Bus",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag-sudost",
+        "name": "DB Regio AG Südost"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "8012619",
+      "name": "Peißen",
+      "location": {
+        "type": "location",
+        "id": "8012619",
+        "latitude": 51.500783,
+        "longitude": 12.058804
+      },
+      "products": {
+        "nationalExpress": false,
+        "national": false,
+        "regionalExp": false,
+        "regional": true,
+        "suburban": true,
+        "bus": false,
+        "ferry": false,
+        "subway": false,
+        "tram": false,
+        "taxi": false
+      }
+    }
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#306376#TA#0#DA#91224#1S#8000261#1T#1955#LS#8098160#LT#2350#PU#80#RT#1#CA#ICE#ZE#1018#ZB#ICE 1018#PC#0#FR#8000261#FT#1955#TO#8098160#TT#2350#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-09T22:44:00+01:00",
+    "plannedWhen": "2024-12-09T22:42:00+01:00",
+    "delay": 120,
+    "platform": "7",
+    "plannedPlatform": "7",
+    "prognosisType": "prognosed",
+    "direction": "Berlin Hbf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "ice-1018",
+      "fahrtNr": "1018",
+      "name": "ICE 1018",
+      "public": true,
+      "adminCode": "80____",
+      "productName": "ICE",
+      "mode": "train",
+      "product": "nationalExpress",
+      "operator": {
+        "type": "operator",
+        "id": "db-fernverkehr-ag",
+        "name": "DB Fernverkehr AG"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "8098160",
+      "name": "Berlin Hbf",
+      "location": {
+        "type": "location",
+        "id": "8098160",
+        "latitude": 52.52585,
+        "longitude": 13.368892
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": true,
+        "tram": true,
+        "taxi": false
+      },
+      "station": {
+        "type": "station",
+        "id": "8011160",
+        "name": "Berlin Hbf",
+        "location": {
+          "type": "location",
+          "id": "8011160",
+          "latitude": 52.524924,
+          "longitude": 13.369629
+        },
+        "products": {
+          "nationalExpress": true,
+          "national": true,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": true,
+          "ferry": false,
+          "subway": true,
+          "tram": true,
+          "taxi": false
+        }
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 51.371527,
+      "longitude": 11.866849
+    },
+    "loadFactor": "low-to-medium"
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#367922#TA#0#DA#91224#1S#8013361#1T#2118#LS#8080590#LT#2254#PU#80#RT#1#CA#s#ZE#3#ZB#S      3#PC#4#FR#8013361#FT#2118#TO#8080590#TT#2254#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-09T22:46:00+01:00",
+    "plannedWhen": "2024-12-09T22:46:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "prognosed",
+    "direction": "Halle Südstadt",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "4-800486-3",
+      "fahrtNr": "37372",
+      "name": "S 3",
+      "public": true,
+      "adminCode": "800486",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag-sudost",
+        "name": "DB Regio AG Südost"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "station",
+      "id": "8080590",
+      "name": "Halle Südstadt",
+      "location": {
+        "type": "location",
+        "id": "8080590",
+        "latitude": 51.447962,
+        "longitude": 11.950799
+      },
+      "products": {
+        "nationalExpress": false,
+        "national": false,
+        "regionalExp": false,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": false
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 51.454848,
+      "longitude": 12.028052
+    }
+  },
+  {
+    "tripId": "2|#VN#1#ST#1733178662#PI#0#ZI#315012#TA#0#DA#91224#1S#8001768#1T#1616#LS#8010205#LT#2215#PU#80#RT#1#CA#ICr#ZE#2435#ZB#IC  2435#PC#1#FR#8001768#FT#1616#TO#8010205#TT#2215#",
+    "stop": {
+      "type": "station",
+      "id": "8010159",
+      "name": "Halle(Saale)Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010159",
+        "latitude": 51.477079,
+        "longitude": 11.98699
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": true
+      }
+    },
+    "when": "2024-12-09T22:49:00+01:00",
+    "plannedWhen": "2024-12-09T21:55:00+01:00",
+    "delay": 3240,
+    "platform": "8",
+    "plannedPlatform": "8",
+    "prognosisType": "prognosed",
+    "direction": "Leipzig Hbf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "ic-2435",
+      "fahrtNr": "2435",
+      "name": "IC 2435",
+      "public": true,
+      "adminCode": "80____",
+      "productName": "IC",
+      "mode": "train",
+      "product": "national",
+      "operator": {
+        "type": "operator",
+        "id": "db-fernverkehr-ag",
+        "name": "DB Fernverkehr AG"
+      }
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "station",
+      "id": "8010205",
+      "name": "Leipzig Hbf",
+      "location": {
+        "type": "location",
+        "id": "8010205",
+        "latitude": 51.345081,
+        "longitude": 12.381167
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": true,
+        "taxi": false
+      }
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 51.637293,
+      "longitude": 12.051802
+    },
+    "loadFactor": "low-to-medium"
+  }
+]

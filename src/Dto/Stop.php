@@ -10,7 +10,7 @@ class Stop implements JsonSerializable
     public string $id;
     public string $name;
     public Location $location;
-    public Products $products;
+    public ?Products $products = null;
     public ?Station $station = null;
     public ?int $distance = null;
     /**
