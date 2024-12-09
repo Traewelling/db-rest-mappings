@@ -1,0 +1,148 @@
+{
+	"type": "station",
+	"id": "8000191",
+	"additionalIds": [
+		"8079041"
+	],
+	"ril100": "RK",
+	"nr": 3107,
+	"name": "Karlsruhe Hbf",
+	"weight": 684.3,
+	"location": {
+		"type": "location",
+		"latitude": 48.993515,
+		"longitude": 8.402181
+	},
+	"operator": {
+		"type": "operator",
+		"id": "nahverkehrsgesellschaft-baden-wurttemberg-mbh",
+		"name": "NVBW"
+	},
+	"address": {
+		"city": "Karlsruhe",
+		"zipcode": "76137",
+		"street": "Bahnhofplatz 1a"
+	},
+	"category": 1,
+	"priceCategory": 1,
+	"hasParking": true,
+	"hasBicycleParking": true,
+	"hasLocalPublicTransport": true,
+	"hasPublicFacilities": true,
+	"hasLockerSystem": true,
+	"hasTaxiRank": true,
+	"hasTravelNecessities": false,
+	"hasSteplessAccess": "yes",
+	"hasMobilityService": "Ja, um Voranmeldung unter 01806 512 512 wird gebeten",
+	"hasWiFi": true,
+	"hasTravelCenter": true,
+	"hasRailwayMission": true,
+	"hasDBLounge": false,
+	"hasLostAndFound": true,
+	"hasCarRental": true,
+	"federalState": "Baden-Württemberg",
+	"regionalbereich": {
+		"number": 6,
+		"name": "RB Südwest",
+		"shortName": "RB SW"
+	},
+	"DBinformation": {
+		"availability": {
+			"monday": {
+				"fromTime": "06:00",
+				"toTime": "22:30"
+			},
+			"tuesday": {
+				"fromTime": "06:00",
+				"toTime": "22:30"
+			},
+			"wednesday": {
+				"fromTime": "06:00",
+				"toTime": "22:30"
+			},
+			"thursday": {
+				"fromTime": "06:00",
+				"toTime": "22:30"
+			},
+			"friday": {
+				"fromTime": "06:00",
+				"toTime": "22:30"
+			},
+			"saturday": {
+				"fromTime": "06:00",
+				"toTime": "22:30"
+			},
+			"sunday": {
+				"fromTime": "07:00",
+				"toTime": "22:30"
+			},
+			"holiday": {
+				"fromTime": "07:00",
+				"toTime": "22:30"
+			}
+		}
+	},
+	"localServiceStaff": {
+		"availability": {
+			"monday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"tuesday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"wednesday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"thursday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"friday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"saturday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"sunday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			},
+			"holiday": {
+				"fromTime": "06:00",
+				"toTime": "24:00"
+			}
+		}
+	},
+	"timeTableOffice": {
+		"email": "DBS.Fahrplan.BadenWuerttemberg@deutschebahn.com",
+		"name": "Bahnhofsmanagement Karlsruhe"
+	},
+	"szentrale": {
+		"number": 32,
+		"publicPhoneNumber": "0621/8301055",
+		"name": "Mannheim Hbf"
+	},
+	"stationManagement": {
+		"number": 204,
+		"name": "Karlsruhe"
+	},
+	"ril100Identifiers": [
+		{
+			"rilIdentifier": "RK",
+			"isMain": true,
+			"hasSteamPermission": true,
+			"geographicCoordinates": {
+				"type": "Point",
+				"coordinates": [
+					8.401949365,
+					48.993520565
+				]
+			}
+		}
+	]
+}
