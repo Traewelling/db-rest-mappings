@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use DRM\Trip;
+use DRM\Dto\Trip;
 use PHPUnit\Framework\TestCase;
 
 class JsonTest extends TestCase

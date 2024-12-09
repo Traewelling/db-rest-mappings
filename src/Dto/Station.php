@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM;
+namespace DRM\Dto;
 
-class Stop
+class Station
 {
     public string $type;
     public string $id;

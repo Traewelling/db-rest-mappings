@@ -1,6 +1,6 @@
 <?php
 
-namespace DRM;
+namespace DRM\Dto;
 
 
 class Trip
