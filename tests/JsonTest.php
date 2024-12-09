@@ -35,6 +35,9 @@ class JsonTest extends TestCase
         ];
     }
 
+    /**
+     * @throws ReflectionException
+     */
     #[DataProvider('jsonDataProvider')]
     public function testJson($file, $class)
     {
@@ -50,6 +53,9 @@ class JsonTest extends TestCase
         $this->assertJsonStringEqualsJsonString($json, $trips);
     }
 
+    /**
+     * @throws ReflectionException
+     */
     #[DataProvider('singleObjectJsonDataProvider')]
     public function testObjectJsons($file, $class)
     {
