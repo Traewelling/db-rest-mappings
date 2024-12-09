@@ -5,7 +5,7 @@ namespace DRM\Dto;
 
 use JsonSerializable;
 
-class Trip implements JsonSerializable
+class Departure implements JsonSerializable
 {
     public string $tripId;
     public Stop $stop;

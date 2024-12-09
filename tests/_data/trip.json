@@ -1,0 +1,493 @@
+{
+  "origin": {
+    "type": "stop",
+    "id": "8100447",
+    "name": "Wien Hütteldorf",
+    "location": {
+      "type": "location",
+      "id": "8100447",
+      "latitude": 48.197256,
+      "longitude": 16.261252
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": true,
+      "regional": true,
+      "suburban": true,
+      "bus": false,
+      "ferry": false,
+      "subway": true,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  "destination": {
+    "type": "stop",
+    "id": "8101947",
+    "name": "Wien Handelskai (Bahnsteige 11-12)",
+    "location": {
+      "type": "location",
+      "id": "8101947",
+      "latitude": 48.241951,
+      "longitude": 16.385223
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": true,
+      "bus": false,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  "departure": "2024-12-11T11:50:00+01:00",
+  "plannedDeparture": "2024-12-11T11:50:00+01:00",
+  "departureDelay": null,
+  "arrival": "2024-12-11T12:17:00+01:00",
+  "plannedArrival": "2024-12-11T12:17:00+01:00",
+  "arrivalDelay": null,
+  "reachable": true,
+  "line": {
+    "type": "line",
+    "id": "4-81-45",
+    "fahrtNr": "20589",
+    "name": "S 45",
+    "public": true,
+    "adminCode": "81____",
+    "productName": "S",
+    "mode": "train",
+    "product": "suburban",
+    "operator": {
+      "type": "operator",
+      "id": "osterreichische-bundesbahnen",
+      "name": "Österreichische Bundesbahnen"
+    }
+  },
+  "direction": "Wien Handelskai (Bahnsteige 11-12)",
+  "arrivalPlatform": "11",
+  "plannedArrivalPlatform": "11",
+  "arrivalPrognosisType": "prognosed",
+  "departurePlatform": "11",
+  "plannedDeparturePlatform": "11",
+  "departurePrognosisType": "prognosed",
+  "stopovers": [
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100447",
+        "name": "Wien Hütteldorf",
+        "location": {
+          "type": "location",
+          "id": "8100447",
+          "latitude": 48.197256,
+          "longitude": 16.261252
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": true,
+          "regional": true,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": true,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": null,
+      "plannedArrival": null,
+      "arrivalDelay": null,
+      "arrivalPlatform": null,
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": null,
+      "departure": "2024-12-11T11:50:00+01:00",
+      "plannedDeparture": "2024-12-11T11:50:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "11",
+      "departurePrognosisType": "prognosed",
+      "plannedDeparturePlatform": "11"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100450",
+        "name": "Wien Penzing",
+        "location": {
+          "type": "location",
+          "id": "8100450",
+          "latitude": 48.192708,
+          "longitude": 16.304437
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T11:54:00+01:00",
+      "plannedArrival": "2024-12-11T11:54:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "3",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "3",
+      "departure": "2024-12-11T11:54:00+01:00",
+      "plannedDeparture": "2024-12-11T11:54:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "3",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "3"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100395",
+        "name": "Wien Breitensee",
+        "location": {
+          "type": "location",
+          "id": "8100395",
+          "latitude": 48.197544,
+          "longitude": 16.306738
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T11:56:00+01:00",
+      "plannedArrival": "2024-12-11T11:56:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "1",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "1",
+      "departure": "2024-12-11T11:56:00+01:00",
+      "plannedDeparture": "2024-12-11T11:56:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "1",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "1"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100512",
+        "name": "Wien Ottakring",
+        "location": {
+          "type": "location",
+          "id": "8100512",
+          "latitude": 48.21181,
+          "longitude": 16.311188
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": true,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T11:58:00+01:00",
+      "plannedArrival": "2024-12-11T11:58:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "1",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "1",
+      "departure": "2024-12-11T11:59:00+01:00",
+      "plannedDeparture": "2024-12-11T11:59:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "1",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "1"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100271",
+        "name": "Wien Hernals",
+        "location": {
+          "type": "location",
+          "id": "8100271",
+          "latitude": 48.223253,
+          "longitude": 16.314846
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T12:01:00+01:00",
+      "plannedArrival": "2024-12-11T12:01:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "1",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "1",
+      "departure": "2024-12-11T12:01:00+01:00",
+      "plannedDeparture": "2024-12-11T12:01:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "1",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "1"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100249",
+        "name": "Wien Gersthof",
+        "location": {
+          "type": "location",
+          "id": "8100249",
+          "latitude": 48.230858,
+          "longitude": 16.329076
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T12:03:00+01:00",
+      "plannedArrival": "2024-12-11T12:03:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "1",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "1",
+      "departure": "2024-12-11T12:04:00+01:00",
+      "plannedDeparture": "2024-12-11T12:04:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "1",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "1"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100297",
+        "name": "Wien Krottenbachstraße",
+        "location": {
+          "type": "location",
+          "id": "8100297",
+          "latitude": 48.240054,
+          "longitude": 16.340618
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T12:06:00+01:00",
+      "plannedArrival": "2024-12-11T12:06:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "1",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "1",
+      "departure": "2024-12-11T12:07:00+01:00",
+      "plannedDeparture": "2024-12-11T12:07:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "1",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "1"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100441",
+        "name": "Wien Oberdöbling",
+        "location": {
+          "type": "location",
+          "id": "8100441",
+          "latitude": 48.244099,
+          "longitude": 16.344061
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T12:08:00+01:00",
+      "plannedArrival": "2024-12-11T12:08:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "1",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "1",
+      "departure": "2024-12-11T12:08:00+01:00",
+      "plannedDeparture": "2024-12-11T12:08:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "1",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "1"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8100269",
+        "name": "Wien Heiligenstadt",
+        "location": {
+          "type": "location",
+          "id": "8100269",
+          "latitude": 48.249052,
+          "longitude": 16.365698
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": true,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": true,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T12:11:00+01:00",
+      "plannedArrival": "2024-12-11T12:11:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "4",
+      "arrivalPrognosisType": null,
+      "plannedArrivalPlatform": "4",
+      "departure": "2024-12-11T12:13:00+01:00",
+      "plannedDeparture": "2024-12-11T12:13:00+01:00",
+      "departureDelay": null,
+      "departurePlatform": "4",
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": "4"
+    },
+    {
+      "stop": {
+        "type": "stop",
+        "id": "8101947",
+        "name": "Wien Handelskai (Bahnsteige 11-12)",
+        "location": {
+          "type": "location",
+          "id": "8101947",
+          "latitude": 48.241951,
+          "longitude": 16.385223
+        },
+        "products": {
+          "nationalExpress": false,
+          "national": false,
+          "regionalExp": false,
+          "regional": false,
+          "suburban": true,
+          "bus": false,
+          "ferry": false,
+          "subway": false,
+          "tram": false,
+          "taxi": false
+        }
+      },
+      "arrival": "2024-12-11T12:17:00+01:00",
+      "plannedArrival": "2024-12-11T12:17:00+01:00",
+      "arrivalDelay": null,
+      "arrivalPlatform": "11",
+      "arrivalPrognosisType": "prognosed",
+      "plannedArrivalPlatform": "11",
+      "departure": null,
+      "plannedDeparture": null,
+      "departureDelay": null,
+      "departurePlatform": null,
+      "departurePrognosisType": null,
+      "plannedDeparturePlatform": null
+    }
+  ],
+  "remarks": [
+    {
+      "text": "Number of bicycles conveyed limited",
+      "type": "hint",
+      "code": "bicycle-conveyance",
+      "summary": "bicycles conveyed"
+    },
+    {
+      "text": "2nd class only",
+      "type": "hint",
+      "code": "2nd-class-only",
+      "summary": "2. class only"
+    },
+    {
+      "type": "hint",
+      "code": "SB",
+      "text": "It is mandatory to hold a valid ticket in local lines (REX, R, S-Bahn)"
+    },
+    {
+      "text": "space for wheelchairs",
+      "type": "hint",
+      "code": "wheelchairs-space",
+      "summary": "space for wheelchairs"
+    },
+    {
+      "text": "Wheelchair space - For advance notification, call +43 5 1717",
+      "type": "hint",
+      "code": "wheelchairs-space-reservation",
+      "summary": "space for wheelchairs, subject to reservation"
+    },
+    {
+      "type": "hint",
+      "code": "OB",
+      "text": "Low-floor coach"
+    },
+    {
+      "type": "hint",
+      "code": "OG",
+      "text": "WC with limited accessibility for wheelchair"
+    }
+  ],
+  "id": "2|#VN#1#ST#1733178662#PI#0#ZI#675133#TA#26#DA#111224#1S#8100447#1T#1150#LS#8101947#LT#1217#PU#80#RT#1#CA#s#ZE#45#ZB#S     45#PC#4#FR#8100447#FT#1150#TO#8101947#TT#1217#",
+  "realtimeDataUpdatedAt": 1733782083
+}

@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 use DRM\Dto\FullStation;
 use DRM\Dto\Stop;
-use DRM\Dto\Trip;
+use DRM\Dto\Departure;
+use DRM\Dto\Trip\Trip;
 use DRM\Hydrator\DbRestHydrator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
@@ -15,8 +16,8 @@ class JsonTest extends TestCase
     public static function jsonDataProvider(): array
     {
         return [
-            ['departures.json', Trip::class],
-            ['departures_2.json', Trip::class],
+            ['departures.json', Departure::class],
+            ['departures_2.json', Departure::class],
             ['locations.json', Stop::class],
             ['stations_nearby.json', Stop::class],
         ];
@@ -25,6 +26,8 @@ class JsonTest extends TestCase
     public static function singleObjectJsonDataProvider(): array
     {
         return [
+            ['trip.json', Trip::class],
+            ['trip2.json', Trip::class],
             ['stations_ril.json', FullStation::class],
             ['stations_ibnr.json', FullStation::class],
             ['stops_station.json', Stop::class],
