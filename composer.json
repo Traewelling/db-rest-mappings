@@ -2,6 +2,7 @@
     "name": "traewelling/db-rest-mappings",
     "description": "This package provides a simple data structure for the REST responses of https://v5.db.transport.rest/.",
     "license": "MIT",
+    "version": "0.1.0 alpha",
     "type": "library",
     "require": {
         "php": "^8.0",
