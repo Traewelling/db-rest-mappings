@@ -1,0 +1,217 @@
+[
+  {
+    "type": "stop",
+    "id": "694800",
+    "name": "Böttgerstraße, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "694800",
+      "latitude": 53.568365,
+      "longitude": 9.995537
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 497
+  },
+  {
+    "type": "stop",
+    "id": "694799",
+    "name": "Alsterchaussee, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "694799",
+      "latitude": 53.572752,
+      "longitude": 9.994018
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 527
+  },
+  {
+    "type": "stop",
+    "id": "692403",
+    "name": "Sophienterrasse, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "692403",
+      "latitude": 53.576141,
+      "longitude": 9.993263
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 781
+  },
+  {
+    "type": "station",
+    "id": "694788",
+    "name": "Hallerstraße, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "694788",
+      "latitude": 53.572851,
+      "longitude": 9.989065
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": true,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 844
+  },
+  {
+    "type": "stop",
+    "id": "694798",
+    "name": "Hallerstraße (U), Hamburg",
+    "location": {
+      "type": "location",
+      "id": "694798",
+      "latitude": 53.572698,
+      "longitude": 9.988661
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": true,
+      "tram": false,
+      "taxi": false
+    },
+    "station": {
+      "type": "station",
+      "id": "694788",
+      "name": "Hallerstraße, Hamburg",
+      "location": {
+        "type": "location",
+        "id": "694788",
+        "latitude": 53.572851,
+        "longitude": 9.989065
+      },
+      "products": {
+        "nationalExpress": false,
+        "national": false,
+        "regionalExp": false,
+        "regional": false,
+        "suburban": false,
+        "bus": true,
+        "ferry": false,
+        "subway": true,
+        "tram": false,
+        "taxi": false
+      }
+    },
+    "distance": 866
+  },
+  {
+    "type": "stop",
+    "id": "694801",
+    "name": "Fontenay, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "694801",
+      "latitude": 53.564374,
+      "longitude": 9.994441
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 881
+  },
+  {
+    "type": "stop",
+    "id": "694808",
+    "name": "Museum am Rothenbaum, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "694808",
+      "latitude": 53.568203,
+      "longitude": 9.988436
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 920
+  },
+  {
+    "type": "stop",
+    "id": "693033",
+    "name": "Zimmerstraße, Hamburg",
+    "location": {
+      "type": "location",
+      "id": "693033",
+      "latitude": 53.574594,
+      "longitude": 10.014945
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "distance": 969
+  }
+]
