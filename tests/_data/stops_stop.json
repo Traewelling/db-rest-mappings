@@ -1,0 +1,96 @@
+{
+  "type": "stop",
+  "id": "370626",
+  "name": "Essenweinstraße, Karlsruhe",
+  "location": {
+    "type": "location",
+    "id": "370626",
+    "latitude": 49.010124,
+    "longitude": 8.431954
+  },
+  "products": {
+    "nationalExpress": false,
+    "national": false,
+    "regionalExp": false,
+    "regional": false,
+    "suburban": true,
+    "bus": false,
+    "ferry": false,
+    "subway": false,
+    "tram": true,
+    "taxi": false
+  },
+  "station": {
+    "type": "station",
+    "id": "360626",
+    "name": "Essenweinstraße, Karlsruhe",
+    "location": {
+      "type": "location",
+      "id": "360626",
+      "latitude": 49.009315,
+      "longitude": 8.431828
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": true,
+      "bus": false,
+      "ferry": false,
+      "subway": false,
+      "tram": true,
+      "taxi": false
+    }
+  },
+  "entrances": [
+    {
+      "type": "location",
+      "id": "600370626",
+      "latitude": 49.009207,
+      "longitude": 8.431828
+    },
+    {
+      "type": "location",
+      "id": "630370626",
+      "latitude": 49.010223,
+      "longitude": 8.431783
+    },
+    {
+      "type": "location",
+      "id": "620370626",
+      "latitude": 49.010241,
+      "longitude": 8.431972
+    },
+    {
+      "type": "location",
+      "id": "610370626",
+      "latitude": 49.009207,
+      "longitude": 8.431963
+    },
+    {
+      "type": "location",
+      "id": "600360626",
+      "latitude": 49.009207,
+      "longitude": 8.431828
+    },
+    {
+      "type": "location",
+      "id": "630360626",
+      "latitude": 49.010223,
+      "longitude": 8.431783
+    },
+    {
+      "type": "location",
+      "id": "620360626",
+      "latitude": 49.010241,
+      "longitude": 8.431972
+    },
+    {
+      "type": "location",
+      "id": "610360626",
+      "latitude": 49.009207,
+      "longitude": 8.431963
+    }
+  ]
+}
