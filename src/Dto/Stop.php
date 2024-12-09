@@ -13,6 +13,10 @@ class Stop implements JsonSerializable
     public Products $products;
     public ?Station $station = null;
     public ?int $distance = null;
+    /**
+     * @var Entrance[] $entrances
+     */
+    public ?array $entrances;
 
     public function jsonSerialize()
     {
@@ -30,6 +34,10 @@ class Stop implements JsonSerializable
 
         if ($this->distance) {
             $return['distance'] = $this->distance;
+        }
+
+        if ($this->entrances) {
+            $return['entrances'] = $this->entrances;
         }
 
         return $return;

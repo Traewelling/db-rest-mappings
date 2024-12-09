@@ -2,9 +2,12 @@
 
 namespace DRM\Hydrator;
 
+use Exception;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionNamedType;
+use ReflectionParameter;
+use ReflectionProperty;
 
 class DbRestHydrator
 {
@@ -24,15 +27,34 @@ class DbRestHydrator
             $type = $parameter->getType();
 
             if ($type instanceof ReflectionNamedType && !$type->isBuiltin()) {
-                // Handle nested custom types
-                $nestedClass = $type->getName();
-                $dto->$name = $this->hydrate($data[$name], $nestedClass);
+                if ($this->isArrayOfType($parameter)) {
+                    // Handle an array of objects
+                    $elementType = $this->getArrayElementType($parameter);
+                    $dto->$name = array_map(fn($item) => $this->hydrate($item, $elementType), $data[$name] ?? []);
+                } else {
+                    // Handle a single nested custom type
+                    $nestedClass = $type->getName();
+                    $dto->$name = $this->hydrate($data[$name], $nestedClass);
+                }
             } else {
                 // Handle scalar types
-                $dto->$name = $data[$name];
+                $dto->$name = $data[$name] ?? null;
             }
         }
 
         return $dto;
+    }
+
+    private function isArrayOfType(ReflectionProperty $parameter): bool {
+        $docComment = $parameter->getDocComment();
+        return $docComment && preg_match('/@var\s+([^\s]+)\[\]\s+\$' . $parameter->getName() . '/', $docComment);
+    }
+
+    private function getArrayElementType(ReflectionProperty $parameter): string {
+        $docComment = $parameter->getDocComment();
+        if (preg_match('/@var\s+([^\s]+)\[\]\s+\$' . $parameter->getName() . '/', $docComment, $matches)) {
+            return $matches[1];
+        }
+        throw new Exception("Array element type not defined for parameter: " . $parameter->getName());
     }
 }

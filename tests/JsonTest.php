@@ -63,4 +63,15 @@ class JsonTest extends TestCase
         $station = json_encode($station, JSON_PRETTY_PRINT);
         $this->assertJsonStringEqualsJsonString($json, $station);
     }
+
+    public function testJsonStopsStationIdentical()
+    {
+        $json = file_get_contents(__DIR__ . '/_data/stops_station.json');
+        $data = json_decode($json, true);
+        $this->assertIsArray($data);
+
+        $stops = (new DbRestHydrator())->hydrate($data, Stop::class);
+        $stops = json_encode($stops, JSON_PRETTY_PRINT);
+        $this->assertJsonStringEqualsJsonString($json, $stops);
+    }
 }

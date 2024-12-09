@@ -1,0 +1,61 @@
+{
+  "type": "station",
+  "id": "8010159",
+  "name": "Halle(Saale)Hbf",
+  "location": {
+    "type": "location",
+    "id": "8010159",
+    "latitude": 51.477079,
+    "longitude": 11.98699
+  },
+  "products": {
+    "nationalExpress": true,
+    "national": true,
+    "regionalExp": true,
+    "regional": true,
+    "suburban": true,
+    "bus": true,
+    "ferry": false,
+    "subway": false,
+    "tram": true,
+    "taxi": true
+  },
+  "entrances": [
+    {
+      "type": "location",
+      "id": "608010159",
+      "latitude": 51.478031,
+      "longitude": 11.986738
+    },
+    {
+      "type": "location",
+      "id": "618010159",
+      "latitude": 51.476917,
+      "longitude": 11.985461
+    },
+    {
+      "type": "location",
+      "id": "8070814",
+      "latitude": 51.476764,
+      "longitude": 11.985668
+    },
+    {
+      "type": "location",
+      "id": "8070814",
+      "latitude": 51.476764,
+      "longitude": 11.985668
+    },
+    {
+      "type": "location",
+      "id": "600956662",
+      "latitude": 51.477141,
+      "longitude": 11.984661
+    },
+    {
+      "type": "location",
+      "id": "610956662",
+      "latitude": 51.477402,
+      "longitude": 11.984859
+    }
+  ]
+}
