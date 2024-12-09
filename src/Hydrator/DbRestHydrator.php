@@ -11,7 +11,10 @@ class DbRestHydrator
     /**
      * @throws ReflectionException
      */
-    public function hydrate(array $data, string $class) {
+    public function hydrate(?array $data, string $class) {
+        if (!$data) {
+            return null;
+        }
         $reflection = new ReflectionClass($class);
         $dto        = new $class();
         $parameters = $reflection->getProperties();

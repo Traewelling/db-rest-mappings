@@ -1,0 +1,301 @@
+[
+  {
+    "type": "station",
+    "id": "8011113",
+    "name": "Berlin Südkreuz",
+    "location": {
+      "type": "location",
+      "id": "8011113",
+      "latitude": 52.47623,
+      "longitude": 13.365863
+    },
+    "products": {
+      "nationalExpress": true,
+      "national": true,
+      "regionalExp": true,
+      "regional": true,
+      "suburban": true,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  {
+    "type": "stop",
+    "id": "731654",
+    "name": "Südkreuz Bahnhof (S), Berlin",
+    "location": {
+      "type": "location",
+      "id": "731654",
+      "latitude": 52.476265,
+      "longitude": 13.3642
+    },
+    "products": {
+      "nationalExpress": true,
+      "national": true,
+      "regionalExp": true,
+      "regional": true,
+      "suburban": true,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "station": {
+      "type": "station",
+      "id": "8011113",
+      "name": "Berlin Südkreuz",
+      "location": {
+        "type": "location",
+        "id": "8011113",
+        "latitude": 52.47623,
+        "longitude": 13.365863
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": false,
+        "taxi": false
+      }
+    }
+  },
+  {
+    "type": "stop",
+    "id": "727256",
+    "name": "Südkreuz Bahnhof (S)/Ostseite, Berlin",
+    "location": {
+      "type": "location",
+      "id": "727256",
+      "latitude": 52.47436,
+      "longitude": 13.366843
+    },
+    "products": {
+      "nationalExpress": true,
+      "national": true,
+      "regionalExp": true,
+      "regional": true,
+      "suburban": true,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "station": {
+      "type": "station",
+      "id": "8011113",
+      "name": "Berlin Südkreuz",
+      "location": {
+        "type": "location",
+        "id": "8011113",
+        "latitude": 52.47623,
+        "longitude": 13.365863
+      },
+      "products": {
+        "nationalExpress": true,
+        "national": true,
+        "regionalExp": true,
+        "regional": true,
+        "suburban": true,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": false,
+        "taxi": false
+      }
+    }
+  },
+  {
+    "type": "stop",
+    "id": "425433",
+    "name": "Südkreisel, Großheubach",
+    "location": {
+      "type": "location",
+      "id": "425433",
+      "latitude": 49.721548,
+      "longitude": 9.229872
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  {
+    "type": "stop",
+    "id": "697773",
+    "name": "Süd/Kreuzung, Kronprinzenkoog",
+    "location": {
+      "type": "location",
+      "id": "697773",
+      "latitude": 53.948456,
+      "longitude": 8.960205
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": true
+    }
+  },
+  {
+    "type": "stop",
+    "id": "696977",
+    "name": "Süderzollhaus Kreuzung, Janneby",
+    "location": {
+      "type": "location",
+      "id": "696977",
+      "latitude": 54.650181,
+      "longitude": 9.286459
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  {
+    "type": "stop",
+    "id": "609595",
+    "name": "Südmerzen Kreuz, Merzen",
+    "location": {
+      "type": "location",
+      "id": "609595",
+      "latitude": 52.453667,
+      "longitude": 7.816597
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  {
+    "type": "stop",
+    "id": "695914",
+    "name": "Süderheverkoog Kreuzung, Poppenbüll",
+    "location": {
+      "type": "location",
+      "id": "695914",
+      "latitude": 54.368225,
+      "longitude": 8.70741
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  },
+  {
+    "type": "stop",
+    "id": "730102",
+    "name": "Seidlkreuz Süd, Eichstätt (Bayern)",
+    "location": {
+      "type": "location",
+      "id": "730102",
+      "latitude": 48.893687,
+      "longitude": 11.206034
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    },
+    "station": {
+      "type": "station",
+      "id": "846054",
+      "name": "Seidlkreuz Süd/Kreisel, Eichstätt (Bayern)",
+      "location": {
+        "type": "location",
+        "id": "846054",
+        "latitude": 48.893714,
+        "longitude": 11.206034
+      },
+      "products": {
+        "nationalExpress": false,
+        "national": false,
+        "regionalExp": false,
+        "regional": false,
+        "suburban": false,
+        "bus": true,
+        "ferry": false,
+        "subway": false,
+        "tram": false,
+        "taxi": false
+      }
+    }
+  },
+  {
+    "type": "station",
+    "id": "846054",
+    "name": "Seidlkreuz Süd/Kreisel, Eichstätt (Bayern)",
+    "location": {
+      "type": "location",
+      "id": "846054",
+      "latitude": 48.893714,
+      "longitude": 11.206034
+    },
+    "products": {
+      "nationalExpress": false,
+      "national": false,
+      "regionalExp": false,
+      "regional": false,
+      "suburban": false,
+      "bus": true,
+      "ferry": false,
+      "subway": false,
+      "tram": false,
+      "taxi": false
+    }
+  }
+]
