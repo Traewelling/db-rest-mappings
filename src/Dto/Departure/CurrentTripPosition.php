@@ -1,11 +1,10 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Departure;
 
-class Entrance
+class CurrentTripPosition
 {
     public string $type;
-    public string $id;
     public float $latitude;
     public float $longitude;
 }

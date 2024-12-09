@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class StationManagementDTO
+class StationManagement
 {
     public int $number;
     public string $name;

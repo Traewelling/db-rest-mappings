@@ -1,11 +1,11 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class Ril100IdentifierDTO
+class Ril100Identifier
 {
     public string $rilIdentifier;
     public bool $isMain;
     public bool $hasSteamPermission;
-    public GeographicCoordinatesDTO $geographicCoordinates;
+    public GeographicCoordinates $geographicCoordinates;
 }

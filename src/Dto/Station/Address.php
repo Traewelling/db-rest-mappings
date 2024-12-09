@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class AddressDTO
+class Address
 {
     public string $city;
     public string $zipcode;

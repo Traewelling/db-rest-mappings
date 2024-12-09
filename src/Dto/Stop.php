@@ -2,6 +2,9 @@
 
 namespace DRM\Dto;
 
+use DRM\Dto\Generics\Location;
+use DRM\Dto\Generics\Products;
+use DRM\Dto\Stop\Station;
 use JsonSerializable;
 
 class Stop implements JsonSerializable
@@ -14,7 +17,7 @@ class Stop implements JsonSerializable
     public ?Station $station = null;
     public ?int $distance = null;
     /**
-     * @var Entrance[] $entrances
+     * @var Location[] $entrances
      */
     public ?array $entrances;
 

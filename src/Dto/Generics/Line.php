@@ -1,10 +1,8 @@
 <?php
 
-namespace DRM\Dto\Trip;
+namespace DRM\Dto\Generics;
 
-use DRM\Dto\Operator;
-
-class LineDTO
+class Line
 {
     public string $type;
     public string $id;

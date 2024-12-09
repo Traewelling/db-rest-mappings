@@ -1,9 +1,11 @@
 <?php
 
-namespace DRM\Dto\Trip;
+namespace DRM\Dto;
 
 
-use DRM\Dto\Stop;
+use DRM\Dto\Generics\Line;
+use DRM\Dto\Trip\Remark;
+use DRM\Dto\Trip\Stopover;
 
 class Trip
 {
@@ -16,7 +18,7 @@ class Trip
     public string $plannedArrival;
     public ?int $arrivalDelay;
     public bool $reachable;
-    public LineDTO $line;
+    public Line $line;
     public string $direction;
     public ?string $arrivalPlatform;
     public ?string $plannedArrivalPlatform;
@@ -26,12 +28,12 @@ class Trip
     public ?string $departurePrognosisType;
 
     /**
-     * @var StopoverDTO[]
+     * @var Stopover[]
      */
     public array $stopovers; // Array of StopoverDTO
 
     /**
-     * @var RemarkDTO[]
+     * @var Remark[]
      */
     public array $remarks; // Array of RemarkDTO
     public string $id;

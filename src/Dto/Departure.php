@@ -3,6 +3,8 @@
 namespace DRM\Dto;
 
 
+use DRM\Dto\Departure\CurrentTripPosition;
+use DRM\Dto\Generics\Line;
 use JsonSerializable;
 
 class Departure implements JsonSerializable
@@ -20,7 +22,7 @@ class Departure implements JsonSerializable
     public Line $line;
     public array $remarks;
     public ?string $origin;
-    public Destination $destination;
+    public Stop $destination;
     public ?CurrentTripPosition $currentTripPosition;
     public ?string $loadFactor;
 

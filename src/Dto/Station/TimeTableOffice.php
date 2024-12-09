@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class TimeTableOfficeDTO
+class TimeTableOffice
 {
     public string $email;
     public string $name;

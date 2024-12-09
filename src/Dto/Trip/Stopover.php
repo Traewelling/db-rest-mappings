@@ -4,7 +4,7 @@ namespace DRM\Dto\Trip;
 
 use DRM\Dto\Stop;
 
-class StopoverDTO
+class Stopover
 {
     public Stop $stop;
     public ?string $arrival;

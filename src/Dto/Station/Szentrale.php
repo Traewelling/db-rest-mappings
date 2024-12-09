@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class SzentraleDTO
+class Szentrale
 {
     public int $number;
     public string $publicPhoneNumber;

@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class RegionalbereichDTO
+class Regionalbereich
 {
     public int $number;
     public string $name;

@@ -3,10 +3,22 @@
 namespace DRM\Dto;
 
 
+use DRM\Dto\Generics\Location;
+use DRM\Dto\Generics\Operator;
+use DRM\Dto\Station\Address;
+use DRM\Dto\Station\DBInformation;
+use DRM\Dto\Station\LocalServiceStaff;
+use DRM\Dto\Station\Regionalbereich;
+use DRM\Dto\Station\Ril100Identifier;
+use DRM\Dto\Station\StationManagement;
+use DRM\Dto\Station\Szentrale;
+use DRM\Dto\Station\TimeTableOffice;
+
 class FullStation
 {
         public string               $type;
         public string               $id;
+        /** @var string[] */
         public array                $additionalIds;
         public string               $ril100;
         public int                  $nr;
@@ -14,7 +26,7 @@ class FullStation
         public float                $weight;
         public Location $location;
         public Operator $operator;
-        public AddressDTO           $address;
+        public Address           $address;
         public int                  $category;
         public int                  $priceCategory;
         public bool                 $hasParking;
@@ -33,12 +45,13 @@ class FullStation
         public bool                 $hasLostAndFound;
         public bool                 $hasCarRental;
         public string               $federalState;
-        public RegionalbereichDTO   $regionalbereich;
+        public Regionalbereich   $regionalbereich;
         /** @SuppressWarnings("php:S116") */
-        public DBInformationDTO     $DBinformation;
-        public LocalServiceStaffDTO $localServiceStaff;
-        public TimeTableOfficeDTO   $timeTableOffice;
-        public SzentraleDTO         $szentrale;
-        public StationManagementDTO $stationManagement;
+        public DBInformation     $DBinformation;
+        public LocalServiceStaff $localServiceStaff;
+        public TimeTableOffice   $timeTableOffice;
+        public Szentrale         $szentrale;
+        public StationManagement $stationManagement;
+        /** @var Ril100Identifier[] */
         public array                $ril100Identifiers;
 }

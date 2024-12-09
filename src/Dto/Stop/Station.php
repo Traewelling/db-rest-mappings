@@ -1,6 +1,9 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Stop;
+
+use DRM\Dto\Generics\Location;
+use DRM\Dto\Generics\Products;
 
 class Station
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class DayAvailabilityDTO
+class DayAvailability
 {
     public string $fromTime;
     public string $toTime;

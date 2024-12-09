@@ -1,8 +1,8 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Station;
 
-class GeographicCoordinatesDTO
+class GeographicCoordinates
 {
     public string $type;
     public array $coordinates;

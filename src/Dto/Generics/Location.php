@@ -1,6 +1,6 @@
 <?php
 
-namespace DRM\Dto;
+namespace DRM\Dto\Generics;
 
 class Location implements \JsonSerializable
 {

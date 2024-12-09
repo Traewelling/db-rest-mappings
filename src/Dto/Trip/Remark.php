@@ -2,7 +2,7 @@
 
 namespace DRM\Dto\Trip;
 
-class RemarkDTO
+class Remark
 {
     public string $text;
     public string $type;
