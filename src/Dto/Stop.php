@@ -12,14 +12,14 @@ class Stop implements JsonSerializable
     public string $type;
     public string $id;
     public string $name;
-    public Location $location;
+    public ?Location $location = null;
     public ?Products $products = null;
     public ?Station $station = null;
     public ?int $distance = null;
     /**
      * @var Location[] $entrances
      */
-    public ?array $entrances;
+    public ?array $entrances = null;
 
     public function jsonSerialize()
     {

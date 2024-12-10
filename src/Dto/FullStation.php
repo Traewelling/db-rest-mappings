@@ -16,42 +16,42 @@ use DRM\Dto\Station\TimeTableOffice;
 
 class FullStation
 {
-        public string               $type;
-        public string               $id;
-        /** @var string[] */
-        public array                $additionalIds;
-        public string               $ril100;
-        public int                  $nr;
-        public string               $name;
-        public float                $weight;
-        public Location $location;
-        public Operator $operator;
-        public Address           $address;
-        public int                  $category;
-        public int                  $priceCategory;
-        public bool                 $hasParking;
-        public bool                 $hasBicycleParking;
-        public bool                 $hasLocalPublicTransport;
-        public bool                 $hasPublicFacilities;
-        public bool                 $hasLockerSystem;
-        public bool                 $hasTaxiRank;
-        public bool                 $hasTravelNecessities;
-        public string               $hasSteplessAccess;
-        public string               $hasMobilityService;
-        public bool                 $hasWiFi;
-        public bool                 $hasTravelCenter;
-        public bool                 $hasRailwayMission;
-        public bool                 $hasDBLounge;
-        public bool                 $hasLostAndFound;
-        public bool                 $hasCarRental;
-        public string               $federalState;
-        public Regionalbereich   $regionalbereich;
-        /** @SuppressWarnings("php:S116") */
-        public DBInformation     $DBinformation;
-        public LocalServiceStaff $localServiceStaff;
-        public TimeTableOffice   $timeTableOffice;
-        public Szentrale         $szentrale;
-        public StationManagement $stationManagement;
-        /** @var Ril100Identifier[] */
-        public array                $ril100Identifiers;
+    public string               $type;
+    public string               $id;
+    /** @var string[] */
+    public array                $additionalIds;
+    public string               $ril100;
+    public int                  $nr;
+    public string               $name;
+    public ?float                $weight = null;
+    public ?Location $location = null;
+    public ?Operator $operator = null;
+    public ?Address           $address = null;
+    public ?int                  $category = null;
+    public ?int                  $priceCategory = null;
+    public ?bool                 $hasParking = null;
+    public ?bool                 $hasBicycleParking = null;
+    public ?bool                 $hasLocalPublicTransport = null;
+    public ?bool                 $hasPublicFacilities = null;
+    public ?bool                 $hasLockerSystem = null;
+    public ?bool                 $hasTaxiRank = null;
+    public ?bool                 $hasTravelNecessities = null;
+    public ?string               $hasSteplessAccess = null;
+    public ?string               $hasMobilityService = null;
+    public ?bool                 $hasWiFi = null;
+    public ?bool                 $hasTravelCenter = null;
+    public ?bool                 $hasRailwayMission = null;
+    public ?bool                 $hasDBLounge = null;
+    public ?bool                 $hasLostAndFound = null;
+    public ?bool                 $hasCarRental = null;
+    public ?string               $federalState = null;
+    public ?Regionalbereich   $regionalbereich = null;
+    /** @SuppressWarnings("php:S116") */
+    public ?DBInformation     $DBinformation = null;
+    public ?LocalServiceStaff $localServiceStaff = null;
+    public ?TimeTableOffice   $timeTableOffice = null;
+    public ?Szentrale         $szentrale = null;
+    public ?StationManagement $stationManagement = null;
+    /** @var Ril100Identifier[] */
+    public array                $ril100Identifiers = [];
 }

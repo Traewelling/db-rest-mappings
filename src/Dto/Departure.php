@@ -14,17 +14,17 @@ class Departure implements JsonSerializable
     public string $when;
     public string $plannedWhen;
     public ?int $delay;
-    public ?string $platform;
-    public ?string $plannedPlatform;
-    public ?string $prognosisType;
+    public ?string $platform = null;
+    public ?string $plannedPlatform = null;
+    public ?string $prognosisType = null;
     public string $direction;
-    public ?string $provenance;
+    public ?string $provenance = null;
     public Line $line;
     public array $remarks;
-    public ?string $origin;
+    public ?string $origin = null;
     public Stop $destination;
-    public ?CurrentTripPosition $currentTripPosition;
-    public ?string $loadFactor;
+    public ?CurrentTripPosition $currentTripPosition = null;
+    public ?string $loadFactor = null;
 
     public function jsonSerialize()
     {

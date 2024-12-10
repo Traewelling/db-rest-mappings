@@ -6,7 +6,6 @@ use Exception;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionNamedType;
-use ReflectionParameter;
 use ReflectionProperty;
 
 class DbRestHydrator

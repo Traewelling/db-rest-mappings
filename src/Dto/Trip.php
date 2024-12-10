@@ -13,19 +13,19 @@ class Trip
     public Stop $destination;
     public string $departure;
     public string $plannedDeparture;
-    public ?int $departureDelay;
+    public ?int $departureDelay = null;
     public string $arrival;
     public string $plannedArrival;
-    public ?int $arrivalDelay;
-    public bool $reachable;
+    public ?int $arrivalDelay = null;
+    public ?bool $reachable = null;
     public Line $line;
     public string $direction;
-    public ?string $arrivalPlatform;
-    public ?string $plannedArrivalPlatform;
-    public ?string $arrivalPrognosisType;
-    public ?string $departurePlatform;
-    public ?string $plannedDeparturePlatform;
-    public ?string $departurePrognosisType;
+    public ?string $arrivalPlatform = null;
+    public ?string $plannedArrivalPlatform = null;
+    public ?string $arrivalPrognosisType = null;
+    public ?string $departurePlatform = null;
+    public ?string $plannedDeparturePlatform = null;
+    public ?string $departurePrognosisType = null;
 
     /**
      * @var Stopover[]
