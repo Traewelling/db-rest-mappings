@@ -20,7 +20,7 @@ class Departure implements JsonSerializable
     public string $direction;
     public ?string $provenance = null;
     public Line $line;
-    public array $remarks;
+    public array $remarks = [];
     public ?string $origin = null;
     public Stop $destination;
     public ?CurrentTripPosition $currentTripPosition = null;

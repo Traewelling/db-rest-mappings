@@ -9,7 +9,7 @@ use JsonSerializable;
 
 class Stop implements JsonSerializable
 {
-    public string $type;
+    public string $type = 'stop';
     public string $id;
     public string $name;
     public ?Location $location = null;
